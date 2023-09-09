@@ -6,7 +6,22 @@ Inspired by https://github.com/rany2/edge-tts and https://github.com/Migushthe2n
 
 https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-synthesis-markup
 
+## Usage
+
+```bash
+cargo add edge-tts --git https://github.com/ganlvtech/edge-tts.git
+```
+
+or
+
+```toml
+[dependencies]
+edge-tts = { git = "https://github.com/ganlvtech/edge-tts.git", version = "0.1.0" }
+```
+
 ## Example
+
+cargo run --example hello
 
 ```rust
 use std::fs::OpenOptions;
