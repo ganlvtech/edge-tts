@@ -13,6 +13,9 @@ serde = { version = "1.0.188", features = ["derive"], optional = true }
 tungstenite = { version = "0.20.0", features = ["native-tls-vendored"] }
 ureq = { version = "2.7.1", features = ["json"], optional = true }
 xml = "0.8.10"
+url = "2.5.4"
+socks = "0.3"
+native-tls = "0.2.12"
 
 [features]
 voice_list = ["serde", "ureq"]
